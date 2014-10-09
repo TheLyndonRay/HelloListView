@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/Lyndon/Android/Projects/HelloListView/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Lyndon/AndroidStudioProjects/HelloListView/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string-array name="countries_array">

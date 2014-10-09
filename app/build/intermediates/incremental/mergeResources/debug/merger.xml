@@ -2,35 +2,38 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res" >
+        <source path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res" >
             <file
                 name="icon"
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\drawable-hdpi\icon.png"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\drawable-hdpi\icon.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="icon"
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\drawable-ldpi\icon.png"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\drawable-ldpi\icon.png"
                 qualifiers="ldpi-v4"
                 type="drawable" />
             <file
                 name="icon"
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\drawable-mdpi\icon.png"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\drawable-mdpi\icon.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="list_item"
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\layout\list_item.xml"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\layout\list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\layout\main.xml"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\layout\main.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\main\res\values\strings.xml"
+                path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="hello" >Hello World, HelloListView!
+                </string>
+
                 <string-array name="countries_array" >
                     <item>
 Bahrain
@@ -57,15 +60,13 @@ Benin
 
                 <string name="app_name" >HelloListView
                 </string>
-                <string name="hello" >Hello World, HelloListView!
-                </string>
             </file>
         </source>
-        <source path="C:\Users\Lyndon\Android\Projects\HelloListView\app\build\generated\res\rs\debug" />
-        <source path="C:\Users\Lyndon\Android\Projects\HelloListView\app\build\generated\res\generated\debug" />
+        <source path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\build\generated\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Lyndon\Android\Projects\HelloListView\app\src\debug\res" />
+        <source path="C:\Users\Lyndon\AndroidStudioProjects\HelloListView\app\src\debug\res" />
     </dataSet>
 
 </merger>

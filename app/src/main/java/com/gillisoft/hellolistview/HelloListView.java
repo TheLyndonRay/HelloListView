@@ -16,11 +16,11 @@ public class HelloListView extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
     	  super.onCreate(savedInstanceState);
 
-    	  String[] countries = getResources().getStringArray(R.array.countries_array);
-    	  setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, countries));
+    	  String[] countries = getResources().getStringArray(R.array.countries_array); //creates the array
+    	  setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, countries)); //creates arrayAdapter to bind data to view
 
-    	  ListView lv = getListView();
-    	  lv.setTextFilterEnabled(true);
+    	  ListView lv = getListView(); //WTF
+    	  lv.setTextFilterEnabled(true); //Filters data... not important
 
     	  lv.setOnItemClickListener(new OnItemClickListener() {
     	    public void onItemClick(AdapterView<?> parent, View view,
